@@ -122,3 +122,32 @@ print(f"x: {x}, y: {y} and y has a type of {type(y)} while x has a type of {type
 # [1]
 # {1}
 # (1)
+
+fruit = "Apple"
+print(fruit[1:-1])
+
+
+# comparison operators
+print(1 == 1)
+print(1 != 1)
+print(1 > 0)
+print(1 < 10)
+print(10 >= 1)
+print(1 <= 10)
+
+# comparison operators on strings
+print("bag" > "apple") #True
+print("bag" == "BAG") #False
+comparison_b = ord("b")
+# number calculations of teh stings
+print(f"{ord("b")} , {ord("a")} , {ord("g")}")
+print(f"{ord("B")} , {ord("A")} , {ord("G")}")
+capitals = ord("B") + ord("A") + ord("G")
+print(capitals)
+print(chr(capitals)) # converts the number to a character
+littles = ord("b") + ord("a") + ord("g")
+print(littles)
+print(chr(littles))
+print(f"The difference between capitals and littles is {capitals - littles}, is capitals greater: {capitals > littles}, what's the type? {type(capitals)}, {type(littles)}")
+
+# conditional statements
