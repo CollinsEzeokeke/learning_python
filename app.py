@@ -1,4 +1,4 @@
-course = "Python Programming"
+course = "   Python Programming"
 numberDefined = 12
 # tripple quotes stings
 message = """
@@ -37,3 +37,16 @@ print(full_name)
 
 # formatted strings
 print(f"Hello there {first} {last} {numberDefined}")
+
+strippedCourse = course.strip()
+print(strippedCourse)
+
+# string methods
+print(course.upper())
+print(course.lower())
+print(course.title())
+print(strippedCourse)
+print(course)
+parsedVar = course.lower()
+print(parsedVar.find("pro"))
+print(course.replace("Python", "Java"))
