@@ -42,3 +42,22 @@ if highIncome.lower() == "true" and goodCreditScore.lower() == "true" and age >=
     print("Business is booming in this time of the year let's get to work!")
 else:
     print("Improve on your income, credit score, age, and education status to be eligible for a loan! and you're a student step up")
+
+
+# age should be between 18 and 65
+if age >= 18 and age <= 65:
+    print("Eligible for loan")
+else:
+    print("Not eligible for loan")
+
+if 18 <= age < 65:
+    print("Eligible for loan")
+else:
+    print("Not eligible for loan") 
+
+if 10 == "10":
+    print("a")
+elif "bag" > "apple" and "bag" > "cat":
+    print("b")
+else:
+    print("c")
