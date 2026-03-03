@@ -27,7 +27,7 @@ print(course[:])
 # \b
 # \f
 # \v
-# \\ 
+# \\
 
 newCourse = "Python \nProgramming "
 print(newCourse)
@@ -60,7 +60,7 @@ print("pro" not in course)
 # numbers
 x = 1
 y = 1.1
-x = 1 + 2j # a + bi complex numbers
+x = 1 + 2j  # a + bi complex numbers
 print(x + y)
 
 print(10 + 3)
@@ -72,7 +72,7 @@ print(10 % 3)
 print(10 ** 3)
 
 
-# augumented 
+# augumented
 x = 10
 print(x)
 # x = x + 3  #same as below
@@ -136,18 +136,30 @@ print(10 >= 1)
 print(1 <= 10)
 
 # comparison operators on strings
-print("bag" > "apple") #True
-print("bag" == "BAG") #False
+print("bag" > "apple")  # True
+print("bag" == "BAG")  # False
 comparison_b = ord("b")
 # number calculations of teh stings
 print(f"{ord("b")} , {ord("a")} , {ord("g")}")
 print(f"{ord("B")} , {ord("A")} , {ord("G")}")
 capitals = ord("B") + ord("A") + ord("G")
 print(capitals)
-print(chr(capitals)) # converts the number to a character
+print(chr(capitals))  # converts the number to a character
 littles = ord("b") + ord("a") + ord("g")
 print(littles)
 print(chr(littles))
-print(f"The difference between capitals and littles is {capitals - littles}, is capitals greater: {capitals > littles}, what's the type? {type(capitals)}, {type(littles)}")
+print(
+    f"The difference between capitals and littles is {capitals - littles}, is capitals greater: {capitals > littles}, what's the type? {type(capitals)}, {type(littles)}")
 
 # conditional statements
+temperature = int(input("what's the temperature like today? "))
+if temperature > 30:
+    print("It's warm")
+    print("Drink water")
+elif temperature > 20:
+    print("It's nice")
+    print("Enjoy the day")
+else:
+    print("It's cold")
+    print("Wear a jacket")
+print("Done!!")
