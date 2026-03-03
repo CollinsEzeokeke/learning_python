@@ -1,3 +1,13 @@
-x = 1
-y = 2
-print("this is amazing it's called python" + str(x+y))
+students_count = 1000
+print(students_count)
+
+# float
+rating = 4.5
+print(rating)
+
+# boolean
+is_published = True
+print(is_published)
+
+course_name = "Python Programming"
+print(course_name)
