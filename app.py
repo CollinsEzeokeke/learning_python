@@ -11,3 +11,7 @@ print(is_published)
 
 course_name = "Python Programming"
 print(course_name)
+
+#  string
+studentsName = "Jack Ma"
+print(studentsName)
